@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtheletesSingleResponsibility", "AtheletesSingleResponsibility\AtheletesSingleResponsibility.csproj", "{2FA77106-E55B-44FA-845A-D93A57C2F375}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaPrinciples", "MetaPrinciples\MetaPrinciples.csproj", "{D97F9D91-4B61-4268-AB55-5EEF0E4F83A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FA77106-E55B-44FA-845A-D93A57C2F375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA77106-E55B-44FA-845A-D93A57C2F375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA77106-E55B-44FA-845A-D93A57C2F375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA77106-E55B-44FA-845A-D93A57C2F375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97F9D91-4B61-4268-AB55-5EEF0E4F83A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97F9D91-4B61-4268-AB55-5EEF0E4F83A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97F9D91-4B61-4268-AB55-5EEF0E4F83A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97F9D91-4B61-4268-AB55-5EEF0E4F83A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFEE583B-A6D2-40B5-BBBD-D728BB96CCEB}
+	EndGlobalSection
+EndGlobal
