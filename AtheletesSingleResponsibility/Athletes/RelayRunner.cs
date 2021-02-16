@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AtheletesSingleResponsibility.Athletes
 {
-    public class RelayRunner : Athlete, IRelayRunner
+    public class RelayRunner : Athlete, IRunRelay
     {
         public RelayRunner(string firstName, string lastName, Gender gender, string country) : base(firstName, lastName, gender, country)
         {

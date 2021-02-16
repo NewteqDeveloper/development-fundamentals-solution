@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AtheletesSingleResponsibility.Athletes.Interfaces
 {
-    public interface IHurdleRunner
+    public interface IRunHurdles
     {
         void RunHurdles();
     }

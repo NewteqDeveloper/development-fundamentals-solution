@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AtheletesSingleResponsibility.Athletes.Interfaces
 {
-    public interface IRelayRunner
+    public interface IRunRelay
     {
         void RunRelay();
     }

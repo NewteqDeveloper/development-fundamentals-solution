@@ -42,6 +42,10 @@ namespace MetaPrinciples.Services
         public string PlayWithAnimal(int id)
         {
             var animal = animals.SingleOrDefault(x => x.Id == id);
+            if (animal == null)
+            {
+                return "Unknown animal";
+            }
             return animal.Play();
         }
     }
