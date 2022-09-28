@@ -16,7 +16,7 @@ namespace AtheletesSingleResponsibility
             }
 
             // non-polymorphic approach
-            foreach (var athlete in Database.Atheletes)
+            // foreach (var athlete in Database.Atheletes)
             // {
             //     if (athlete is IHighJump highJumper)
             //     {
