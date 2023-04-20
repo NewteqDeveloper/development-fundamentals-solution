@@ -47,9 +47,13 @@ namespace MetaPrinciples.Controllers
 
         [HttpGet]
         [Route("sound")]
-        public IActionResult AnimalSound(AnimalType type)
+        public IActionResult AnimalSound(AnimalType? type = null)
         {
-            return Ok(animalService.AnimalSound(type));
+            if (!type.HasValue)
+            {
+                return BadRequest("You must select an animal");
+            }
+            return Ok(animalService.AnimalSound(type.Value));
         }
 
         [HttpGet]
